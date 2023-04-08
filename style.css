@@ -56,7 +56,7 @@ h1{
   transition: all 0.7s ease-in-out 0.2s;
   animation: zoomh1 2s ease-in-out;
   position: relative;
-  
+  font-family: "VT323"
 }
 h1:hover {
     transform: scale(5.6);

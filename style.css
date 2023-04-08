@@ -4,7 +4,7 @@ body {
 .center {
   text-align: center;
   margin: 0;
-  margin-top: 4%;
+  margin-top: 2%;
   position: relative;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -94,19 +94,19 @@ h1:hover {
 }
 @-webkit-keyframes updown {
   0% {
-    -webkit-transform: translateY(0px);
+    -webkit-transform: translateY(-2px);
   }
   25% {
-    -webkit-transform: translateY(5px);
+    -webkit-transform: translateY(3px);
   }
   50% {
-    -webkit-transform: translateY(0px);
+    -webkit-transform: translateY(-2px);
   }
   75% {
-    -webkit-transform: translateY(5px);
+    -webkit-transform: translateY(3px);
   }
   100% {
-    -webkit-transform: translateY(0px);
+    -webkit-transform: translateY(-2px);
 }
 
 @keyframes clicki {

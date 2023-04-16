@@ -29,7 +29,7 @@ window.onload = function () {
 };
 var scrollInterval = setInterval(function () {
   window.scrollBy({
-    top: 500,
+    top: 1000,
     behavior: "smooth"
   });
   clearInterval(scrollInterval);

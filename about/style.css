@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(20, 20, 20);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  height: 291px;
+}
+.grid > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+.center {
+  text-align: center;
+  margin: 0;
+  margin-top: 2%;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center2 {
+  text-align: center;
+  margin: 0;
+  margin-top: 2%;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.buttons {
+  transform: translateY(8px);
+  transition: all 0.4s ease-in-out 0s;
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttons:hover {
+  transform: translateY(-8px);
+  transition: all 0.4s ease-in-out 0s;
+}
+h1 {
+  padding: 100px;
+  color: white;
+  font-family: "VT323";
+  font-size: 70px;
+  text-align: center;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+h2 {
+  padding: 590px;
+  text-align: center;
+  color: white;
+  font-family: "VT323";
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+h3 {
+  padding: 640px;
+  text-align: center;
+  color: white;
+  font-family: "VT323";
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+h4 {
+  background: linear-gradient(to right, #00f, #f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 680px;
+  text-align: center;
+  font-family: "VT323";
+  font-size: 50px;
+}
+#outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#avatar {
+  border: 5px solid rgba(255, 255, 255, 1);
+  width: 200px;
+  height: 200px;
+  border-radius: 45%;
+  position: relative;
+  bottom: 0%;
+  top: 0%;
+  background: rgb(20, 20, 20);
+  margin: auto;
+  display: block;
+  background-color: white;
+}

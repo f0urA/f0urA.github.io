@@ -24,13 +24,23 @@ window.onload = function () {
     .catch((e) => {
       console.log(e);
     });
-
-  // Add animations and other content here
 };
 var scrollInterval = setInterval(function () {
   window.scrollBy({
-    top: 1000,
+    top: 500,
     behavior: "smooth"
   });
   clearInterval(scrollInterval);
 }, 3000);
+
+const disc = document.getElementById('disc');
+
+disc.addEventListener('click', function handleClick() {
+  const initialText = 'my dc';
+
+  if (disc.textContent.toLowerCase().includes(initialText.toLowerCase())) {
+    disc.textContent = '4a#0345';
+  } else {
+    disc.textContent = initialText;
+  }
+});

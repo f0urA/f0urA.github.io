@@ -38,7 +38,7 @@ setTimeout(function () {
       top: -200,
       behavior: "smooth"
     });
-  }, 3000);
+  }, 3500);
 }, 3000);
 const disc = document.getElementById("disc");
 

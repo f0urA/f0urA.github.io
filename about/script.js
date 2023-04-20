@@ -25,21 +25,6 @@ window.onload = function () {
       console.log(e);
     });
 };
-// Scroll down by 200 pixels after 3 seconds
-setTimeout(function () {
-  window.scrollBy({
-    top: 200,
-    behavior: "smooth"
-  });
-  
-  // Scroll back up after 3 more seconds
-  setTimeout(function () {
-    window.scrollBy({
-      top: -200,
-      behavior: "smooth"
-    });
-  }, 3500);
-}, 3000);
 const disc = document.getElementById("disc");
 
 disc.addEventListener("click", function handleClick() {

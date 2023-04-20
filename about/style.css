@@ -5,15 +5,6 @@ body {
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none;
 }
-.grid {
-  display: grid;
-  width: 100%;
-  height: 291px;
-}
-.grid > * {
-  grid-column: 1 / 1;
-  grid-row: 1 / 1;
-}
 .center {
   text-align: center;
   margin: 0;
@@ -23,8 +14,16 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.grid {
+  display: grid;
+  width: 100%;
+  height: 291px;
+}
+.grid > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
 .buttons {
-  transform: translateY(8px);
   transition: all 0.4s ease-in-out 0s;
   color: white;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
@@ -48,7 +47,7 @@ h1 {
     2px 2px 0 #000;
 }
 h2 {
-  padding: 590px;
+padding: 450px;
   text-align: center;
   color: white;
   font-family: "VT323";
@@ -57,7 +56,7 @@ h2 {
     2px 2px 0 #000;
 }
 h3 {
-  padding: 640px;
+  padding: 500px;
   text-align: center;
   color: white;
   font-family: "VT323";
@@ -66,18 +65,13 @@ h3 {
     2px 2px 0 #000;
 }
 h4 {
+padding: 550px;
   background: linear-gradient(to right, #00f, #f0f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 680px;
   text-align: center;
   font-family: "VT323";
   font-size: 50px;
-}
-#outer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 #avatar {
   border: 5px solid rgba(255, 255, 255, 1);

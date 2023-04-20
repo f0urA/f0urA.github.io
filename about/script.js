@@ -25,21 +25,28 @@ window.onload = function () {
       console.log(e);
     });
 };
-var scrollInterval = setInterval(function () {
+// Scroll down by 200 pixels after 3 seconds
+setTimeout(function () {
   window.scrollBy({
-    top: 500,
+    top: 200,
     behavior: "smooth"
   });
-  clearInterval(scrollInterval);
+  
+  // Scroll back up after 3 more seconds
+  setTimeout(function () {
+    window.scrollBy({
+      top: -200,
+      behavior: "smooth"
+    });
+  }, 3000);
 }, 3000);
+const disc = document.getElementById("disc");
 
-const disc = document.getElementById('disc');
-
-disc.addEventListener('click', function handleClick() {
-  const initialText = 'my dc';
+disc.addEventListener("click", function handleClick() {
+  const initialText = "my dc";
 
   if (disc.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-    disc.textContent = '4a#0345';
+    disc.textContent = "4a#0345";
   } else {
     disc.textContent = initialText;
   }

@@ -1,3 +1,1 @@
-# pixelamp1.github.io
-
-work in progress (NOT MEANT FOR ANY OTHER DEVICE THAN COMPUTER, AND NEVER WILL BE)
+# will forever be unfinished bcs i dont like using html

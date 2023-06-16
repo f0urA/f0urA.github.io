@@ -25,14 +25,3 @@ window.onload = function () {
       console.log(e);
     });
 };
-const disc = document.getElementById("disc");
-
-disc.addEventListener("click", function handleClick() {
-  const initialText = "my dc";
-
-  if (disc.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-    disc.textContent = "4a#0345";
-  } else {
-    disc.textContent = initialText;
-  }
-});

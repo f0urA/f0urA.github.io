@@ -73,16 +73,3 @@ h4 {
   font-family: "VT323";
   font-size: 50px;
 }
-#avatar {
-  border: 5px solid rgba(255, 255, 255, 1);
-  width: 200px;
-  height: 200px;
-  border-radius: 45%;
-  position: relative;
-  bottom: 0%;
-  top: 0%;
-  background: rgb(20, 20, 20);
-  margin: auto;
-  display: block;
-  background-color: white;
-}
